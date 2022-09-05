@@ -1,13 +1,20 @@
+@import url("https://fonts.googleapis.com/css2family=Merriweather&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Merriweather", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: burlywood;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.todo-list {
+  border: thin solid black !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 12px;
+  padding: 12px;
 }
